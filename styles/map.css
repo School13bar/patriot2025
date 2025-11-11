@@ -207,6 +207,8 @@ p {
     background-size: cover;
     color: white;
     z-index: 0;
+    font-size: 20px;
+    line-height: 1.6;
   }
   
   .region-of-Belarus_warp {
@@ -236,8 +238,8 @@ p {
   }
   
   .close-region_svg {
-    width: 4em;
-    height: 4em;
+    width: 4rem;
+    height: 4rem;
     fill: rgba(50, 55, 159, 0.9);
     border: 0.2em solid rgba(50, 55, 159, 0.9);
     border-radius: 50%;
@@ -263,7 +265,7 @@ p {
   /* БРЕСТСКАЯ ОБЛАСТЬ */
   
   .Brest-region {
-    background-image:url(img/region/background/brest-background.png);
+    background-image:url(../img/region/background/brest-background.png);
   }
   
   .region__map__city_Brest:hover {
